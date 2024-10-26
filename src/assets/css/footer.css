@@ -1,0 +1,53 @@
+ #footer{
+   
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    
+    
+    
+}
+#image{
+    height: 250px;
+    width: 100%;
+    z-index: 0;
+    
+}
+#social_media{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.SM{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.SM:hover{
+    color: #F4BE97;
+    
+}
+#cp{
+    text-align:end;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    margin-left: 50%;
+    margin-bottom: 20px;
+}
+
+

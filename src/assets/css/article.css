@@ -1,0 +1,70 @@
+#lower-section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f3e8;
+    position: relative;
+    overflow: scroll;
+    z-index: 0;
+    height: 500px;
+    width: auto;
+}
+#shape1{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #798DA2;
+    clip-path:polygon(0 0, 0 100%, 100% 100%);
+    z-index: 0;
+}
+#shape2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #F0A29B;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+    z-index: 0;
+    right: 0;
+}
+#article{
+    width: 28%;
+    height: 350px;
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+    z-index: 0;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    left: 0;
+    
+}
+#a-tt{
+    text-align: center;
+    font-size: 30px;
+}
+#a-p{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+#img-grid{
+    position: absolute;
+    right: 0;
+    border: 3px solid white;
+    padding: 10px;
+    z-index: 0;
+    width: 70%;
+    grid-template-areas:
+        "image2 image3"
+        "image1 image5 image4 ";
+        gap: 1px;
+        
+    
+   
+    
+}
+.grid{
+    display: flex;
+
+}
